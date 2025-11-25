@@ -32,6 +32,4 @@ public class Cliente {
 
     @OneToMany(mappedBy = "cliente", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<ContasReceber> contasReceber;
-
-    // Construtores, getters, e setters omitidos devido ao Lombok (@Data)
 }
