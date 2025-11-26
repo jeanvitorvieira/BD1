@@ -20,8 +20,8 @@ public class Cliente {
     @Column(name = "nome", nullable = false, length = 50)
     private String nome;
 
-    @Column(name = "telefone", nullable = false)
-    private Integer telefone;
+    @Column(name = "telefone", nullable = false, length = 13)
+    private String telefone;
 
     @Column(name = "endereco", nullable = false, length = 50)
     private String endereco;

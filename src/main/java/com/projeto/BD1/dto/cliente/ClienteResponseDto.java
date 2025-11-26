@@ -5,6 +5,6 @@ public record ClienteResponseDto(
         Integer codigo,
         String cpf,
         String nome,
-        Integer telefone,
+        String telefone,
         String endereco
 ) { }
